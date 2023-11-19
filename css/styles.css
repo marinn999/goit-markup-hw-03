@@ -1,0 +1,134 @@
+ul, ol {
+    list-style-type: none;
+}
+
+.logotype {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+}
+.studio-black {
+color: #2E2F42;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+
+}
+.top-navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.top-navigation:hover, .top-navigation:focus {
+    color: #404BBF;
+}
+.address {
+    font-style: normal;
+    
+}
+.mail-phone {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+
+}
+.mail-phone:hover, .mail-phone:focus {
+    color: #404BBF;
+}
+.section-title {
+    background-color: #2E2F42;
+
+}
+.title-name {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: white;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+.button {
+    color: white;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+.button:hover, .button:focus {
+    background-color: #404BBF;
+}
+
+.title-second {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
+}
+.team-member {
+    background-color: #FFFFFF;
+}
+.title-third {
+font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;   
+    line-height: 1.2;
+    text-align: center;
+    color: #2E2F42;
+
+}
+
+.text-p {
+color: #434455;
+font-size: 16px;
+letter-spacing: 0.02em;
+line-height: 1.5;
+}
+.footer {
+background-color: #2E2F42;
+color: white;
+}
+.logotype-footer {
+    color: #4d5ae5;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: normal;
+        text-transform: uppercase;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        font-size: 18px;
+    }
+
+.studio {
+color: #F4F4FD;
+}
+.footer-text {
+color: #F4F4FD;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.our-team-section {
+    background-color: #F4F4FD;
+} 
