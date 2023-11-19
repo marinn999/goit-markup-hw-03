@@ -240,6 +240,11 @@ padding: 32px 0;
     padding-top: 120px;
         padding-bottom: 120px;
 }
+.title-second-portfolio {
+margin-bottom: 72px;
+margin-bottom: 8px;
+
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
