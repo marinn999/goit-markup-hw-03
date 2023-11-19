@@ -184,7 +184,9 @@ body {
     background-color: #FFFFFF;
 
 }
-
+.title-second-strat {
+margin-bottom: 8px;
+}
 
 .strat-text {
     width: 264px;
@@ -203,16 +205,35 @@ body {
 }
 .team-member {
     background-color: #FFFFFF; 
+    border-radius: 0px 0px 4px 4px;
+
+
 }
 .our-team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team {
     display: flex;
     justify-content:space-between;
-}
+    gap: 24px;
 
-/* ==================== OUR TEAM ==================== */
+}
+.title-second-team {
+margin-bottom: 72px;
+}
+.team-list-item-container {
+padding: 32px 0;
+
+}
+.title-third-team {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-text {
+    text-align: center;
+}
+/* ==================== / OUR TEAM ==================== */
 
 /* ================== OUR PORTFOLIO =============== */
 
