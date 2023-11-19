@@ -285,6 +285,9 @@ line-height: 1.5;
 background-color: #2E2F42;
 color: white;
 margin-top: 60px;
+padding: 100px 0;
+
+
 }
 .logotype-footer {
     color: #4d5ae5;
@@ -296,6 +299,8 @@ margin-top: 60px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         font-size: 18px;
+        display: inline-block;
+        margin-bottom: 16px;
     }
 
 .studio {
@@ -305,4 +310,5 @@ color: #F4F4FD;
 color: #F4F4FD;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
