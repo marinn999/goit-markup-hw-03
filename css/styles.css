@@ -11,19 +11,6 @@ h1, h2, h3, h4, h5, h6, p {
 img {
     display: block;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 /* ===============  LOGO (Header) ================= */
 .container {
@@ -184,6 +171,19 @@ body {
     background-color: #FFFFFF;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .title-second-strat {
 margin-bottom: 8px;
 }
@@ -228,7 +228,7 @@ padding: 32px 0;
 }
 .title-third-team {
     text-align: center;
-    margin-bottom: 8px;
+    
 }
 .team-text {
     text-align: center;
@@ -236,7 +236,19 @@ padding: 32px 0;
 /* ==================== / OUR TEAM ==================== */
 
 /* ================== OUR PORTFOLIO =============== */
-
+.our-portfolio-section {
+    padding-top: 120px;
+        padding-bottom: 120px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-list-item {
+width: calc((100% - 48px) / 3);
+}
 .title-third {
 font-weight: 500;
     font-size: 20px;
@@ -244,9 +256,18 @@ font-weight: 500;
     line-height: 1.2;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 
 }
+.portf-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
+}
+.title-third-pics {
+margin-bottom: 72px;
+}
 .text-p {
 color: #434455;
 font-size: 16px;
