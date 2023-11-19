@@ -36,6 +36,8 @@ img {
 .page-header-container {
 display: flex;
 justify-content: space-between;
+padding: 0 15px;
+border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -109,6 +111,12 @@ color: #2E2F42;
 
 
 /* ================= SECTION 1 =============== */
+.section-title {
+    background-color: #2E2F42;
+    margin-bottom: 60px;
+    padding: 188px 0;
+
+}
 .effective-solutions {
    width: 496px;
    height: 120px; 
@@ -131,6 +139,11 @@ button {
 }
 
 .button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     color: white;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -160,11 +173,7 @@ body {
     background-color: #FFFFFF;
 
 }
-.section-title {
-    background-color: #2E2F42;
-    margin-bottom: 60px;
 
-}
 
 .strat-text {
     width: 264px;
